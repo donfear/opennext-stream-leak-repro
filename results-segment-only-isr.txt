@@ -1,0 +1,5 @@
+[segment-only] /items/<n>: page 603 KB, heap 12.1 MB after GC at start
+[segment-only] renders  heapMB  growthMB  KB/render  ReadableStream  Controller  Reader
+[segment-only]      50    37.7      25.6      524.2               2           2       2
+[segment-only]     100    61.1      49.0      502.1               2           2       2
+[segment-only]     150    84.6      72.5      494.8               2           2       2

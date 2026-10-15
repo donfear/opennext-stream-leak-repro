@@ -1,0 +1,8 @@
+[patched-isr] /items/<n>: page 603 KB, heap 11.6 MB after GC at start
+[patched-isr] renders  heapMB  growthMB  KB/render  ReadableStream  Controller  Reader
+[patched-isr]      50    13.8       2.3       46.1               2           2       2
+[patched-isr]     100    14.0       2.4       24.5               2           2       2
+[patched-isr]     150    14.1       2.6       17.6               2           2       2
+[patched-isr]     200    14.2       2.7       13.7               2           2       2
+[patched-isr]     250    14.3       2.8       11.3               2           2       2
+[patched-isr]     300    14.5       2.9        9.9               2           2       2

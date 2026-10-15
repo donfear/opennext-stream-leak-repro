@@ -1,0 +1,23 @@
+{
+  "name": "opennext-stream-leak-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "build:worker": "opennextjs-cloudflare build",
+    "serve": "wrangler dev --port 8799 --inspector-port 9239",
+    "measure": "node scripts/measure.mjs"
+  },
+  "dependencies": {
+    "@opennextjs/cloudflare": "1.20.12",
+    "next": "16.4.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.6",
+    "@types/react": "^19.3.0",
+    "typescript": "^5.9.3",
+    "wrangler": "4.151.0"
+  }
+}

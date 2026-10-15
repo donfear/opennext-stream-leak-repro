@@ -1,0 +1,10 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+  workerd: true
+patchedDependencies:
+  next@16.4.1: patches/next@16.4.1.patch
+minimumReleaseAgeExclude:
+  - next
+  - '@next/*'
+  - '@opennextjs/*'
