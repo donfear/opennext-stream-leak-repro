@@ -14,6 +14,9 @@ reads, not the stream objects themselves.)
 Closing those streams (4 small edits in `patches/next@16.4.1.patch`) brings the
 growth to zero.
 
+Reported in [opennextjs/opennextjs-cloudflare#1455](https://github.com/opennextjs/opennextjs-cloudflare/issues/1455),
+fixed at build time by [opennextjs/opennextjs-cloudflare#1456](https://github.com/opennextjs/opennextjs-cloudflare/pull/1456).
+
 ## Versions
 
 | | |
